@@ -11,4 +11,5 @@ class HiveBoxHelperClass {
   static Future<Box<CatModel>> openCatBox() => Hive.openBox<CatModel>('cats');
 
   static Box<CatModel> getCatBox() => Hive.box<CatModel>('cats');
+  // comment
 }
